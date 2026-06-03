@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AutomationSuite">
+
+	<listeners> <!-- this will add listener to testNG file -->
+		<listener class-name="base.Listeners" />
+	</listeners>
+	<test name="RegressionTests">
+		<classes>
+			<class name="tests.PurchaseTest" />
+		</classes>
+	</test> <!--
+	RegressionTests -->
+</suite> <!--
+AutmationSuite -->
